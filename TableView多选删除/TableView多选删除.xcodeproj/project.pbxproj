@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF0F27081C13D39300A86582 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0F27071C13D39300A86582 /* main.m */; };
+		EF0F270B1C13D39300A86582 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0F270A1C13D39300A86582 /* AppDelegate.m */; };
+		EF0F270E1C13D39300A86582 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0F270D1C13D39300A86582 /* ViewController.m */; };
+		EF0F27111C13D39300A86582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0F270F1C13D39300A86582 /* Main.storyboard */; };
+		EF0F27131C13D39300A86582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0F27121C13D39300A86582 /* Assets.xcassets */; };
+		EF0F27161C13D39300A86582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0F27141C13D39300A86582 /* LaunchScreen.storyboard */; };
+		EF0F271F1C13D3E100A86582 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0F271E1C13D3E100A86582 /* MyTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EF74286A1C15A30D00CDF130 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7428691C15A30D00CDF130 /* Foundation+Log.m */; settings = {ASSET_TAGS = (); }; };
+		EF8B6C571C13F96D007CC1DA /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B6C561C13F96D007CC1DA /* MyTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		EF8B6C731C140BB7007CC1DA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF8B6C591C140BB7007CC1DA /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		EF8B6C741C140BB7007CC1DA /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B6C5B1C140BB7007CC1DA /* MASCompositeConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		EF8B6C751C140BB7007CC1DA /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B6C5E1C140BB7007CC1DA /* MASConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		EF8B6C761C140BB7007CC1DA /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B6C601C140BB7007CC1DA /* MASConstraintMaker.m */; settings = {ASSET_TAGS = (); }; };
+		EF8B6C771C140BB7007CC1DA /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B6C621C140BB7007CC1DA /* MASLayoutConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		EF8B6C781C140BB7007CC1DA /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B6C661C140BB7007CC1DA /* MASViewAttribute.m */; settings = {ASSET_TAGS = (); }; };
+		EF8B6C791C140BB7007CC1DA /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B6C681C140BB7007CC1DA /* MASViewConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		EF8B6C7A1C140BB7007CC1DA /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B6C6A1C140BB7007CC1DA /* NSArray+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		EF8B6C7B1C140BB7007CC1DA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B6C6D1C140BB7007CC1DA /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		EF8B6C7C1C140BB7007CC1DA /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B6C6F1C140BB7007CC1DA /* View+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		EF8B6C7D1C140BB7007CC1DA /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B6C721C140BB7007CC1DA /* ViewController+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF0F27031C13D39200A86582 /* TableView多选删除.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView多选删除.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0F27071C13D39300A86582 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF0F27091C13D39300A86582 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF0F270A1C13D39300A86582 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF0F270C1C13D39300A86582 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF0F270D1C13D39300A86582 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF0F27101C13D39300A86582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF0F27121C13D39300A86582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF0F27151C13D39300A86582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF0F27171C13D39300A86582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0F271D1C13D3E100A86582 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		EF0F271E1C13D3E100A86582 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		EF7428691C15A30D00CDF130 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		EF8B6C551C13F96D007CC1DA /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		EF8B6C561C13F96D007CC1DA /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		EF8B6C591C140BB7007CC1DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8B6C5A1C140BB7007CC1DA /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		EF8B6C5B1C140BB7007CC1DA /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		EF8B6C5C1C140BB7007CC1DA /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		EF8B6C5D1C140BB7007CC1DA /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		EF8B6C5E1C140BB7007CC1DA /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		EF8B6C5F1C140BB7007CC1DA /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		EF8B6C601C140BB7007CC1DA /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		EF8B6C611C140BB7007CC1DA /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		EF8B6C621C140BB7007CC1DA /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		EF8B6C631C140BB7007CC1DA /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		EF8B6C641C140BB7007CC1DA /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		EF8B6C651C140BB7007CC1DA /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		EF8B6C661C140BB7007CC1DA /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		EF8B6C671C140BB7007CC1DA /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		EF8B6C681C140BB7007CC1DA /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		EF8B6C691C140BB7007CC1DA /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		EF8B6C6A1C140BB7007CC1DA /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		EF8B6C6B1C140BB7007CC1DA /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		EF8B6C6C1C140BB7007CC1DA /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		EF8B6C6D1C140BB7007CC1DA /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		EF8B6C6E1C140BB7007CC1DA /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		EF8B6C6F1C140BB7007CC1DA /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		EF8B6C701C140BB7007CC1DA /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		EF8B6C711C140BB7007CC1DA /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		EF8B6C721C140BB7007CC1DA /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF0F27001C13D39200A86582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF0F26FA1C13D39200A86582 = {
+			isa = PBXGroup;
+			children = (
+				EF0F27051C13D39200A86582 /* TableView多选删除 */,
+				EF0F27041C13D39200A86582 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF0F27041C13D39200A86582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF0F27031C13D39200A86582 /* TableView多选删除.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF0F27051C13D39200A86582 /* TableView多选删除 */ = {
+			isa = PBXGroup;
+			children = (
+				EF8B6C581C140BB7007CC1DA /* Masonry */,
+				EF0F27091C13D39300A86582 /* AppDelegate.h */,
+				EF0F270A1C13D39300A86582 /* AppDelegate.m */,
+				EF0F271D1C13D3E100A86582 /* MyTableViewController.h */,
+				EF0F271E1C13D3E100A86582 /* MyTableViewController.m */,
+				EF8B6C551C13F96D007CC1DA /* MyTableViewCell.h */,
+				EF8B6C561C13F96D007CC1DA /* MyTableViewCell.m */,
+				EF0F270C1C13D39300A86582 /* ViewController.h */,
+				EF0F270D1C13D39300A86582 /* ViewController.m */,
+				EF0F270F1C13D39300A86582 /* Main.storyboard */,
+				EF0F27121C13D39300A86582 /* Assets.xcassets */,
+				EF0F27141C13D39300A86582 /* LaunchScreen.storyboard */,
+				EF0F27171C13D39300A86582 /* Info.plist */,
+				EF0F27061C13D39200A86582 /* Supporting Files */,
+			);
+			path = "TableView多选删除";
+			sourceTree = "<group>";
+		};
+		EF0F27061C13D39200A86582 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF0F27071C13D39300A86582 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF8B6C581C140BB7007CC1DA /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				EF7428691C15A30D00CDF130 /* Foundation+Log.m */,
+				EF8B6C591C140BB7007CC1DA /* Info.plist */,
+				EF8B6C5A1C140BB7007CC1DA /* MASCompositeConstraint.h */,
+				EF8B6C5B1C140BB7007CC1DA /* MASCompositeConstraint.m */,
+				EF8B6C5C1C140BB7007CC1DA /* MASConstraint+Private.h */,
+				EF8B6C5D1C140BB7007CC1DA /* MASConstraint.h */,
+				EF8B6C5E1C140BB7007CC1DA /* MASConstraint.m */,
+				EF8B6C5F1C140BB7007CC1DA /* MASConstraintMaker.h */,
+				EF8B6C601C140BB7007CC1DA /* MASConstraintMaker.m */,
+				EF8B6C611C140BB7007CC1DA /* MASLayoutConstraint.h */,
+				EF8B6C621C140BB7007CC1DA /* MASLayoutConstraint.m */,
+				EF8B6C631C140BB7007CC1DA /* Masonry.h */,
+				EF8B6C641C140BB7007CC1DA /* MASUtilities.h */,
+				EF8B6C651C140BB7007CC1DA /* MASViewAttribute.h */,
+				EF8B6C661C140BB7007CC1DA /* MASViewAttribute.m */,
+				EF8B6C671C140BB7007CC1DA /* MASViewConstraint.h */,
+				EF8B6C681C140BB7007CC1DA /* MASViewConstraint.m */,
+				EF8B6C691C140BB7007CC1DA /* NSArray+MASAdditions.h */,
+				EF8B6C6A1C140BB7007CC1DA /* NSArray+MASAdditions.m */,
+				EF8B6C6B1C140BB7007CC1DA /* NSArray+MASShorthandAdditions.h */,
+				EF8B6C6C1C140BB7007CC1DA /* NSLayoutConstraint+MASDebugAdditions.h */,
+				EF8B6C6D1C140BB7007CC1DA /* NSLayoutConstraint+MASDebugAdditions.m */,
+				EF8B6C6E1C140BB7007CC1DA /* View+MASAdditions.h */,
+				EF8B6C6F1C140BB7007CC1DA /* View+MASAdditions.m */,
+				EF8B6C701C140BB7007CC1DA /* View+MASShorthandAdditions.h */,
+				EF8B6C711C140BB7007CC1DA /* ViewController+MASAdditions.h */,
+				EF8B6C721C140BB7007CC1DA /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF0F27021C13D39200A86582 /* TableView多选删除 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0F271A1C13D39300A86582 /* Build configuration list for PBXNativeTarget "TableView多选删除" */;
+			buildPhases = (
+				EF0F26FF1C13D39200A86582 /* Sources */,
+				EF0F27001C13D39200A86582 /* Frameworks */,
+				EF0F27011C13D39200A86582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableView多选删除";
+			productName = "TableView多选删除";
+			productReference = EF0F27031C13D39200A86582 /* TableView多选删除.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF0F26FB1C13D39200A86582 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = wangliang;
+				TargetAttributes = {
+					EF0F27021C13D39200A86582 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = EF0F26FE1C13D39200A86582 /* Build configuration list for PBXProject "TableView多选删除" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF0F26FA1C13D39200A86582;
+			productRefGroup = EF0F27041C13D39200A86582 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF0F27021C13D39200A86582 /* TableView多选删除 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF0F27011C13D39200A86582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8B6C731C140BB7007CC1DA /* Info.plist in Resources */,
+				EF0F27161C13D39300A86582 /* LaunchScreen.storyboard in Resources */,
+				EF0F27131C13D39300A86582 /* Assets.xcassets in Resources */,
+				EF0F27111C13D39300A86582 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF0F26FF1C13D39200A86582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8B6C7B1C140BB7007CC1DA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				EF0F270E1C13D39300A86582 /* ViewController.m in Sources */,
+				EF8B6C791C140BB7007CC1DA /* MASViewConstraint.m in Sources */,
+				EF0F270B1C13D39300A86582 /* AppDelegate.m in Sources */,
+				EF0F27081C13D39300A86582 /* main.m in Sources */,
+				EF0F271F1C13D3E100A86582 /* MyTableViewController.m in Sources */,
+				EF8B6C7C1C140BB7007CC1DA /* View+MASAdditions.m in Sources */,
+				EF8B6C741C140BB7007CC1DA /* MASCompositeConstraint.m in Sources */,
+				EF8B6C781C140BB7007CC1DA /* MASViewAttribute.m in Sources */,
+				EF8B6C761C140BB7007CC1DA /* MASConstraintMaker.m in Sources */,
+				EF8B6C7A1C140BB7007CC1DA /* NSArray+MASAdditions.m in Sources */,
+				EF8B6C7D1C140BB7007CC1DA /* ViewController+MASAdditions.m in Sources */,
+				EF8B6C751C140BB7007CC1DA /* MASConstraint.m in Sources */,
+				EF8B6C771C140BB7007CC1DA /* MASLayoutConstraint.m in Sources */,
+				EF8B6C571C13F96D007CC1DA /* MyTableViewCell.m in Sources */,
+				EF74286A1C15A30D00CDF130 /* Foundation+Log.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF0F270F1C13D39300A86582 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF0F27101C13D39300A86582 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF0F27141C13D39300A86582 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF0F27151C13D39300A86582 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF0F27181C13D39300A86582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF0F27191C13D39300A86582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF0F271B1C13D39300A86582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableView多选删除/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.open.TableView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EF0F271C1C13D39300A86582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableView多选删除/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.open.TableView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF0F26FE1C13D39200A86582 /* Build configuration list for PBXProject "TableView多选删除" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0F27181C13D39300A86582 /* Debug */,
+				EF0F27191C13D39300A86582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0F271A1C13D39300A86582 /* Build configuration list for PBXNativeTarget "TableView多选删除" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0F271B1C13D39300A86582 /* Debug */,
+				EF0F271C1C13D39300A86582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF0F26FB1C13D39200A86582 /* Project object */;
+}
